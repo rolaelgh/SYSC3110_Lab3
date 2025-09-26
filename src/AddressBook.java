@@ -16,8 +16,8 @@ public class AddressBook {
         }
     }
 
-    public void buddySpeak(String saysum){
-        System.out.println(saysum);
+    public void buddySpeak(String saySum){
+        System.out.println(saySum);
     }
 
     public void removeBuddy(BuddyInfo buddy) {
