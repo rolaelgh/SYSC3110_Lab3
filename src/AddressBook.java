@@ -16,6 +16,10 @@ public class AddressBook {
         }
     }
 
+    public void buddySpeak(String saysum){
+        System.out.println(saysum);
+    }
+
     public void removeBuddy(BuddyInfo buddy) {
         buddies.remove(buddy);
     }
